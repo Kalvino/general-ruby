@@ -1,0 +1,100 @@
+digraph RGL__ImplicitGraph {
+    Enumerable [
+        fontsize = 8,
+        label = Enumerable
+    ]
+
+    BasicObject [
+        fontsize = 8,
+        label = BasicObject
+    ]
+
+    "RGL::MutableGraph" [
+        fontsize = 8,
+        label = "RGL::MutableGraph"
+    ]
+
+    "RGL::Graph" [
+        fontsize = 8,
+        label = "RGL::Graph"
+    ]
+
+    "RGL::Edge" [
+        fontsize = 8,
+        label = "RGL::Edge"
+    ]
+
+    "RGL::AdjacencyGraph" [
+        fontsize = 8,
+        label = "RGL::AdjacencyGraph"
+    ]
+
+    "RGL::DirectedAdjacencyGraph" [
+        fontsize = 8,
+        label = "RGL::DirectedAdjacencyGraph"
+    ]
+
+    "RGL::MutableGraph" -> "RGL::Graph" [
+        fontsize = 8
+    ]
+
+    "RGL::MutableGraph" -> "RGL::Edge" [
+        fontsize = 8
+    ]
+
+    "RGL::MutableGraph" -> Enumerable [
+        fontsize = 8
+    ]
+
+    "RGL::Graph" -> "RGL::Edge" [
+        fontsize = 8
+    ]
+
+    "RGL::Graph" -> Enumerable [
+        fontsize = 8
+    ]
+
+    "RGL::AdjacencyGraph" -> "RGL::DirectedAdjacencyGraph" [
+        fontsize = 8
+    ]
+
+    "RGL::AdjacencyGraph" -> "RGL::MutableGraph" [
+        fontsize = 8
+    ]
+
+    "RGL::AdjacencyGraph" -> "RGL::Graph" [
+        fontsize = 8
+    ]
+
+    "RGL::AdjacencyGraph" -> "RGL::Edge" [
+        fontsize = 8
+    ]
+
+    "RGL::AdjacencyGraph" -> Enumerable [
+        fontsize = 8
+    ]
+
+    "RGL::AdjacencyGraph" -> BasicObject [
+        fontsize = 8
+    ]
+
+    "RGL::DirectedAdjacencyGraph" -> "RGL::MutableGraph" [
+        fontsize = 8
+    ]
+
+    "RGL::DirectedAdjacencyGraph" -> "RGL::Graph" [
+        fontsize = 8
+    ]
+
+    "RGL::DirectedAdjacencyGraph" -> "RGL::Edge" [
+        fontsize = 8
+    ]
+
+    "RGL::DirectedAdjacencyGraph" -> Enumerable [
+        fontsize = 8
+    ]
+
+    "RGL::DirectedAdjacencyGraph" -> BasicObject [
+        fontsize = 8
+    ]
+}
